@@ -8,14 +8,6 @@ intents = {
         "keywords":["hours", "open", "close"],
         "response": "We are open from 9AM to 5PM, M/F"
     },
-    "address":{
-        "keywords":["address", "direction"],
-        "response": "2330 Cypress Bowl Lane, West VancouverBCV7S 3H9"
-    },
-    "phone":{
-        "keywords":["phone", "number", "contact"],
-        "response": "Our phone number is 604-922-3223"
-    },
     "return":{
        "keywords": ["refound", "money back", "return"],
        "response": "happy to help, let me transfer to a live agent"
