@@ -46,14 +46,12 @@ def get_response(message):
     # Convert the message to lowercase for consistent keyword matching
     message = message.lower()
   
-    # Check if the message contains any keywords associated with defined intents
-    #if any(word in message for word in intent_data["keywords"]):
-    # Return the corresponding message if a keyword matches
-    #    return intent_data["response"]   
+    # Split the message into words so numeric IDs match exactly.
+    message_words = message.split()
 
-    #corrected
+    # Check if the message contains any keywords associated with defined intents
     for intent_data in intents.values():
-        if any(word in message for word in intent_data["keywords"]):
+        if any(keyword in message_words for keyword in intent_data["keywords"]):
             return intent_data["response"]
     
     #for intent_data in intents.values():
