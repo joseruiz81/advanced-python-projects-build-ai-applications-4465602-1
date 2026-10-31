@@ -1,5 +1,5 @@
 import streamlit as st
-from TextBlob import TextBlob
+from textblob import TextBlob
 # Assuming you modularized your get_response function in CH_1_NLP_ChatBot.py
 # from CH_1_NLP_ChatBot import get_response 
 
