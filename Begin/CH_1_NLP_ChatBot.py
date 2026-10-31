@@ -8,6 +8,10 @@ intents = {
         "keywords":["hours", "open", "close"],
         "response": "We are open from 9AM to 5PM, M/F"
     },
+    "exit":{
+        "keywords":["exit", "bye", "quit"],
+        "response": "Thank for chating, have a great day"
+    }
     "return":{
        "keywords": ["refound", "money back", "return"],
        "response": "happy to help, let me transfer to a live agent"
