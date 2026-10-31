@@ -3,8 +3,8 @@ import streamlit as st
 # 1. Import the function from your existing file
 from CH_1_NLP_ChatBot import get_response
 
-st.title("Mulgrave Customer Service Chatbot")
-st.write("Ask about our hours, or grades!")
+st.title("Mulgrave Customer Service Chatbot (testing jruiz)")
+st.write("Ask about our address, contact, hours, or grades!")
 
 if "messages" not in st.session_state:
     st.session_state.messages = []
