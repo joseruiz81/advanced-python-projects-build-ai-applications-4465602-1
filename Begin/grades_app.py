@@ -4,7 +4,8 @@ import streamlit as st
 from CH_1_NLP_ChatBot import get_response
 
 st.title("Mulgrave Customer Service Chatbot (testing jruiz)")
-st.write("Ask about our address, contact, hours, or grades!")
+st.write("Ask about our address, contact, hours, or grades")
+st.write("sentiment-based responses for a chatbot using TextBlob")
 
 if "messages" not in st.session_state:
     st.session_state.messages = []
