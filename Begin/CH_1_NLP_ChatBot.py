@@ -12,6 +12,10 @@ intents = {
         "keywords":["info", "phone", "telephone"],
         "response": "The central phone number is +1-604-922-3223"
     },
+    "exit":{
+        "keywords":["exit", "bye"],
+        "response": "Thank for chating, have a great day ;)"
+    },
     "address":{
         "keywords":["address", "direction"],
         "response": "Our address is 2330 Cypress Bowl Lane, West Vancouver, BC V7S 3H9"
