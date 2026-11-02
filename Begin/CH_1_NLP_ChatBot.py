@@ -8,6 +8,14 @@ intents = {
         "keywords":["hours", "open", "close"],
         "response": "We are open from 9AM to 5PM, M/F"
     },
+    "contact":{
+        "keywords":["info", "phone", "telephone"],
+        "response": "The central phone number is +1-604-922-3223"
+    },
+    "address":{
+        "keywords":["address", "direction"],
+        "response": "Our address is 2330 Cypress Bowl Lane, West Vancouver, BC V7S 3H9
+    },
     "return":{
        "keywords": ["refound", "money back", "return"],
        "response": "happy to help, let me transfer to a live agent"
