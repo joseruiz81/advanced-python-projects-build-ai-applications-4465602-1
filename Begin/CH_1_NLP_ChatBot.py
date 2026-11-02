@@ -14,7 +14,7 @@ intents = {
     },
     "address":{
         "keywords":["address", "direction"],
-        "response": "Our address is 2330 Cypress Bowl Lane, West Vancouver, BC V7S 3H9
+        "response": "Our address is 2330 Cypress Bowl Lane, West Vancouver, BC V7S 3H9"
     },
     "return":{
        "keywords": ["refound", "money back", "return"],
